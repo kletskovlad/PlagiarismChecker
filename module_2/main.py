@@ -53,7 +53,7 @@ class PlagiarismApp:
                 self.config = json.load(f)
         except Exception as e:
             logging.error(f"Помилка конфігурації: {e}")
-            self.config = {"app_name": "AI Checker", "version": "1.1.0"}
+            self.config = {"app_name": "AI Checker", "version": "1.2.0"}
 
     def read_document(self, path):
         ext = os.path.splitext(path)[1].lower()
