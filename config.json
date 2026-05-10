@@ -1,6 +1,6 @@
 {
-    "app_name": "AI Plagiarism Checker",
-    "version": "1.2.0",
-    "log_file": "app.log",
-    "theme_color": "#f0f0f0"
+    "app_name": "AI Plagiarism Checker",  // Назва у заголовку GUI
+    "version": "1.2.0",                   // Поточна ітерація ПЗ
+    "log_file": "app.log",                // Файл для аудиту подій
+    "theme_color": "#f0f0f0"              // Візуальний стиль (HEX)
 }
